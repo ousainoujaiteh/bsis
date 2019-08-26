@@ -12,5 +12,22 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('donors.create');
 });
+
+Route::get('/admin',function (){
+    return view('admin');
+});
+
+Route::get('show_hospital',function (){
+    return view('hospital.show');
+});
+
+Route::resource('donors','DonorController');
+Route::resource('hospitals','HospitalController');
+Route::resource('blood_tests','BloodTestController');
+Route::resource('appointments','AppointmentController');
+Route::resource('blood_test_results','BloodTestResultController');
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
