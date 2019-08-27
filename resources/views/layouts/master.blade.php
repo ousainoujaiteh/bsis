@@ -98,12 +98,12 @@
     <div class="sidebar" data-background-color="white">
         <div class="logo">
             <a href="{{url('/')}}" class="simple-text">
-                <img src="/images/logo.jpg" alt="" width="100%">
+                <img src="/images/bsis-logo.png" alt="" width="100%">
             </a>
         </div>
         <div class="logo logo-mini">
             <a href="#" class="simple-text">
-                GPU
+                BSIS
             </a>
         </div>
         <div class="sidebar-wrapper">
@@ -120,12 +120,18 @@
                         <p>Donors</p>
                     </a>
                 </li>
+                <li>
+                    <a href="{{url('donations')}}">
+                        <i class="material-icons">view_list</i>
+                        <p>Donations</p>
+                    </a>
+                </li>
 
                 {{-- /dashboard --}}
 
                 <li class="{{Request::is('/hospitals') ? 'active':''}}">
                     <a href="{{url('hospitals')}}">
-                        <i class="material-icons">view_list</i>
+                        <i class="material-icons">home</i>
                         <p>Hospital</p>
                     </a>
                 </li>
@@ -145,9 +151,9 @@
                         </a>
                         <div class="collapse" id="layouts2" aria-expanded="false" style="height: 0px;">
                             <ul class="nav">
-                                <li>
+                                <!-- <li>
                                     <a href="{{url('blood_test')}}">Blood Test</a>
-                                </li>
+                                </li> -->
                                 <li>
                                     <a href="{{url('users')}}">Users</a>
                                 </li>

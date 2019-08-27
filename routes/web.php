@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('donors.create');
+    return redirect()->route('login');
 });
 
 Route::get('/admin',function (){
@@ -23,11 +23,16 @@ Route::get('show_hospital',function (){
     return view('hospital.show');
 });
 
+Route::get('show_donor',function (){
+    return view('donors.show');
+});
+Route::resource('users','UserController');
 Route::resource('donors','DonorController');
+Route::resource('donations','DonationController');
 Route::resource('hospitals','HospitalController');
 Route::resource('blood_tests','BloodTestController');
 Route::resource('appointments','AppointmentController');
 Route::resource('blood_test_results','BloodTestResultController');
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/dashboard', 'HomeController@index')->name('dashboard');
