@@ -28,7 +28,24 @@
                             {{-- /col-md-6 --}}
                         </div>
 
+                        <div class="row">
+                            <div class="col-md-12">
+                                <p>Result Label</p>
+                                <div class="form-group label-floating is-empty{{ $errors->has('result_label') ? ' has-error' : '' }}">
+                                    <label class="control-label"></label>
+                                    <input type="text" class="form-control" >
+                                    <span class="help-block">An Blood Test Result Label.</span>
+                                    @if ($errors->has('result_label'))
+                                        <strong class="text-danger">{{ $errors->first('result_label') }}</strong>
+                                    @endif
+                                </div>
+                            </div>
+                            {{-- /col-md-6 --}}
 
+
+                        </div>
+                        <!-- /row -->
+                        
                         <div class="row">
                             <div class="col-md-12">
                                 <p>Result Details</p>

@@ -54,14 +54,78 @@
                             </thead>
                             <tbody>
                             <tr>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
+                                <td><strong><a href="{{url('show_donor')}}">SIRA SOWE</a></strong></td>
+                                <td>35477888</td>
+                                <td>KOLOLI</td>
+                                <td>O</td>
+                                <td>23</td>
+                                <td>FEMALE</td>
+                                <td>GAMBIAN</td>
+                                <td>EFSTH</td>
+                                <td class="text-right">
+                                    <div id="button-dropdown" class="dropdown pull-right">
+                                        <button type="button" class="btn  btn-xs xs-small btn-round btn-info dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                                            <i class="material-icons">build</i>
+                                            <span class="caret"></span>
+                                            <div class="ripple-container"></div>
+                                        </button>
+                                        <ul class="dropdown-menu dropdown-menu-right" role="menu">
+                                            <li>
+                                                <a href="#">
+                                                    <i class="material-icons">edit</i> Make Appointment
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a  href="#" class="delete-record">
+                                                    <i class="material-icons">close</i> Make Blood Test
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><strong><a href="{{url('show_donor')}}">SIRA SOWE</a></strong></td>
+                                <td>35477888</td>
+                                <td>KOLOLI</td>
+                                <td>O</td>
+                                <td>23</td>
+                                <td>FEMALE</td>
+                                <td>GAMBIAN</td>
+                                <td>EFSTH</td>
+                                <td class="text-right">
+                                    <div id="button-dropdown" class="dropdown pull-right">
+                                        <button type="button" class="btn  btn-xs xs-small btn-round btn-info dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                                            <i class="material-icons">build</i>
+                                            <span class="caret"></span>
+                                            <div class="ripple-container"></div>
+                                        </button>
+                                        <ul class="dropdown-menu dropdown-menu-right" role="menu">
+                                            <li>
+                                                <a href="#">
+                                                    <i class="material-icons">edit</i> Make Appointment
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a  href="#" class="delete-record">
+                                                    <i class="material-icons">close</i> Make Blood Test
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><strong><a href="{{url('show_donor')}}">SIRA SOWE</a></strong></td>
+                                <td>35477888</td>
+                                <td>KOLOLI</td>
+                                <td>O</td>
+                                <td>23</td>
+                                <td>FEMALE</td>
+                                <td>GAMBIAN</td>
+                                <td>EFSTH</td>
                                 <td class="text-right">
                                     <div id="button-dropdown" class="dropdown pull-right">
                                         <button type="button" class="btn  btn-xs xs-small btn-round btn-info dropdown-toggle" data-toggle="dropdown" aria-expanded="false">

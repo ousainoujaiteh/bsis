@@ -52,12 +52,30 @@
                             </thead>
                             <tbody>
                             <tr>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
+                                <td>2019-08-12</td>
+                                <td>10:00 AM</td>
+                                <td>12:200 AM</td>
+                                <td>EFSTH</td>
+                                <td>SIRA SOWE</td>
+                                <td>COMPLETED</td>
+                                <td class="text-right"></td>
+                            </tr>
+                            <tr>
+                                <td>2019-08-12</td>
+                                <td>10:00 AM</td>
+                                <td>12:200 AM</td>
+                                <td>EFSTH</td>
+                                <td>SIRA SOWE</td>
+                                <td>COMPLETED</td>
+                                <td class="text-right"></td>
+                            </tr>
+                            <tr>
+                                <td>2019-08-12</td>
+                                <td>10:00 AM</td>
+                                <td>12:200 AM</td>
+                                <td>EFSTH</td>
+                                <td>SIRA SOWE</td>
+                                <td>COMPLETED</td>
                                 <td class="text-right"></td>
                             </tr>
                             </tbody>

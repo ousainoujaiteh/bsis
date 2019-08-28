@@ -49,12 +49,12 @@
                             </tr>
                             </thead>
                             <tbody>
-                            @foreach($hospitals as $hospital)
+                            
                                 <tr>
-                                    <td><strong><a href="{{route('categories.show',$hospital)}}">{{ $hospital->name }}</a></strong></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
+                                    <td><strong><a href="{{url('show_hospital')}}">EFSTH</a></strong></td>
+                                    <td>BANJUL</td>
+                                    <td>efsth@gmail.com</td>
+                                    <td>efsth@bsis.com</td>
                                     <td class="text-right">
                                         <div id="button-dropdown" class="dropdown pull-right">
                                             <button type="button" class="btn  btn-xs xs-small btn-round btn-info dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
@@ -64,12 +64,12 @@
                                             </button>
                                             <ul class="dropdown-menu dropdown-menu-right" role="menu">
                                                 <li>
-                                                    <a href="{{route('categories.edit',$hospital)}}">
+                                                    <a href="">
                                                         <i class="material-icons">edit</i> edit
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a  href="categories/{{$hospital->id}}" class="delete-record">
+                                                    <a  href="" class="delete-record">
                                                         <i class="material-icons">close</i> delete
                                                     </a>
                                                 </li>
@@ -78,7 +78,34 @@
 
                                     </td>
                                 </tr>
-                            @endforeach
+                                <tr>
+                                    <td><strong><a href="{{url('show_hospital')}}">KANIFING GENERAL HOSPITAL </a></strong></td>
+                                    <td>KANIFING</td>
+                                    <td>efsth@gmail.com</td>
+                                    <td>efsth@bsis.com</td>
+                                    <td class="text-right">
+                                        <div id="button-dropdown" class="dropdown pull-right">
+                                            <button type="button" class="btn  btn-xs xs-small btn-round btn-info dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                                                <i class="material-icons">build</i>
+                                                <span class="caret"></span>
+                                                <div class="ripple-container"></div>
+                                            </button>
+                                            <ul class="dropdown-menu dropdown-menu-right" role="menu">
+                                                <li>
+                                                    <a href="">
+                                                        <i class="material-icons">edit</i> edit
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a  href="" class="delete-record">
+                                                        <i class="material-icons">close</i> delete
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                    </td>
+                                </tr>
                             </tbody>
                         </table>
                         <!-- /table -->
